@@ -1,0 +1,561 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1140px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  background: url(../assets/foodBowl2-edgar-castrejon-1SPu0KT-Ejg-unsplash-compressor.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header nav {
+  background: rgba(255, 224, 19, 0.7);
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  font-family: "Kanit";
+}
+
+header nav ul li h2 {
+  font-size: calc(2rem + 0.5vw);
+}
+
+header nav ul .logo {
+  width: 10%;
+  min-width: 100px;
+}
+
+header .headerStyling {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .headerStyling h1 {
+  font-family: "Kanit";
+  font-size: calc(3.5rem + 0.5vw);
+  text-align: center;
+  margin: 5% auto;
+  color: #d3d0cb;
+  text-shadow: 6px 20px 4px #e7e5df;
+}
+
+header .headerStyling .formBox {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+header .headerStyling .formBox form {
+  padding: 2%;
+}
+
+header .headerStyling .formBox form h3 {
+  text-align: center;
+  font-size: calc(1.8rem + 0.5vw);
+  font-family: "Kanit";
+  color: #d3d0cb;
+}
+
+header .headerStyling .formBox form .ingredientContainer {
+  text-align: center;
+  margin: 2% auto;
+}
+
+header .headerStyling .formBox form .ingredientContainer input,
+header .headerStyling .formBox form .ingredientContainer label {
+  display: block;
+  margin: 1% auto;
+}
+
+header .headerStyling .formBox form .ingredientContainer input {
+  padding: 1%;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 1.6rem;
+  font-family: "Kanit";
+}
+
+header .headerStyling .formBox form .ingredientContainer label {
+  font-size: calc(1.8rem + 0.5vw);
+  font-family: "Kanit";
+  color: #d3d0cb;
+}
+
+header .headerStyling .formBox form .dietHeading {
+  margin-top: 2%;
+}
+
+header .headerStyling .formBox form .radioFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .headerStyling .formBox form .radioFields li {
+  width: calc((100% / 5) - 4%);
+  padding: 1%;
+  color: #d3d0cb;
+  font-family: "Kanit";
+  font-size: calc(1.2rem + 0.5vw);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .headerStyling .formBox form .radioFields li input,
+header .headerStyling .formBox form .radioFields li label {
+  cursor: pointer;
+}
+
+header .headerStyling .formBox form .radioFields li label {
+  display: block;
+  text-align: center;
+}
+
+header .headerStyling .formBox form .searchBoxButton {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #d74e09;
+  border: none;
+  padding: 1%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 5px 5px 5px #c1bfb5;
+          box-shadow: 5px 5px 5px #c1bfb5;
+}
+
+main {
+  background: url(../assets/lukas-blazek-f-TWhXOrLiU-unsplash-compressor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+
+.recipesHeader h2 {
+  display: block;
+  width: 60vw;
+  padding: 2%;
+}
+
+.recipesResults {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.recipesResults h2 {
+  font-size: calc(1.8rem + 0.5vw);
+  font-family: "Kanit";
+}
+
+.recipesResults .results {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.recipesResults .results .suggestedRecipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.recipesResults .results .suggestedRecipes .wineInfo {
+  font-family: "Kanit", sans-serif;
+  font-size: calc(1.2rem + 0.5vw);
+  font-style: italic;
+  text-align: center;
+}
+
+.recipesResults .results .suggestedRecipes li {
+  width: calc((100% / 2) - 4%);
+  border: 1px dotted grey;
+  position: relative;
+  margin: 2%;
+}
+
+.recipesResults .results .suggestedRecipes li p {
+  font-family: "Kanit", sans-serif;
+  font-size: calc(1.2rem + 0.5vw);
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #17212171;
+  width: 100%;
+  color: white;
+}
+
+.recipesResults .reloadAll {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #d74e09;
+  border: none;
+  padding: 1%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 5px 5px 5px #c1bfb5;
+  box-shadow: 5px 5px 5px #c1bfb5;
+}
+
+@media (max-width: 480px) {
+  .headerStyling {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .headerStyling .formBox {
+    margin-top: 5%;
+  }
+  .headerStyling .formBox .searchBoxClass .inputBox {
+    width: 100%;
+    text-align: center;
+  }
+  .headerStyling .formBox .searchBoxClass .radioFields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .headerStyling .formBox .searchBoxClass .radioFields li {
+    width: calc((100% / 2) - 4%);
+  }
+}
